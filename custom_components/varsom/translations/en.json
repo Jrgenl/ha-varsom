@@ -1,0 +1,87 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Choose location",
+        "description": "Pick the location to get flood, landslide and avalanche warnings for. It must be in Norway.",
+        "data": {
+          "location": "Location"
+        }
+      },
+      "warning_types": {
+        "title": "Warning types",
+        "description": "Municipality: {municipality}\nAvalanche region: {avalanche_region}\n\nAvalanche warnings are only published for mountain regions during the season.",
+        "data": {
+          "warning_types": "Warning types"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach Varsom (NVE) or Kartverket. Try again later.",
+      "outside_norway": "The location is not in a Norwegian municipality.",
+      "no_warning_types": "Choose at least one warning type.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Warning types",
+        "data": {
+          "warning_types": "Warning types"
+        }
+      }
+    },
+    "error": {
+      "no_warning_types": "Choose at least one warning type."
+    }
+  },
+  "selector": {
+    "warning_types": {
+      "options": {
+        "flood": "Flood",
+        "landslide": "Landslide",
+        "avalanche": "Snow avalanche"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "any_warning": {
+        "name": "Warning"
+      },
+      "flood_warning": {
+        "name": "Flood warning"
+      },
+      "landslide_warning": {
+        "name": "Landslide warning"
+      },
+      "avalanche_warning": {
+        "name": "Avalanche warning"
+      }
+    },
+    "sensor": {
+      "flood_today": {
+        "name": "Flood level today"
+      },
+      "flood_tomorrow": {
+        "name": "Flood level tomorrow"
+      },
+      "landslide_today": {
+        "name": "Landslide level today"
+      },
+      "landslide_tomorrow": {
+        "name": "Landslide level tomorrow"
+      },
+      "avalanche_today": {
+        "name": "Avalanche danger today"
+      },
+      "avalanche_tomorrow": {
+        "name": "Avalanche danger tomorrow"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "RegId": 452335,
+    "RegionId": 3011,
+    "RegionName": "Tromsø",
+    "RegionTypeId": 10,
+    "RegionTypeName": "A",
+    "DangerLevel": "2",
+    "ValidFrom": "2026-03-01T00:00:00",
+    "ValidTo": "2026-03-01T23:59:59",
+    "NextWarningTime": "2026-03-02T16:00:00",
+    "PublishTime": "2026-02-28T15:30:59.547",
+    "DangerIncreaseTime": null,
+    "DangerDecreaseTime": null,
+    "MainText": "Vær varsom i områder med fersk fokksnø og pågående snøfokk. Det finnes også vedvarende svake lag lenger ned i snødekket som kan påvirkes der snødekket er tynt. Utsatte områder er hvor skred typisk løsner, som i leheng og konvekst terreng.",
+    "LangKey": 1
+  },
+  {
+    "RegId": 452568,
+    "RegionId": 3011,
+    "RegionName": "Tromsø",
+    "RegionTypeId": 10,
+    "RegionTypeName": "A",
+    "DangerLevel": "2",
+    "ValidFrom": "2026-03-02T00:00:00",
+    "ValidTo": "2026-03-02T23:59:59",
+    "NextWarningTime": "2026-03-03T16:00:00",
+    "PublishTime": "2026-03-01T15:31:11.07",
+    "DangerIncreaseTime": null,
+    "DangerDecreaseTime": null,
+    "MainText": "Vær varsom i områder med fersk fokksnø og pågående snøfokk. Det finnes også vedvarende svake lag lenger ned i snødekket som kan skape store skred. Utsatte områder er hvor skred typisk løsner, som i leheng og konvekst terreng. Enkelte våte skred kan løsne naturlig under mildværsgrensen.",
+    "LangKey": 1
+  },
+  {
+    "RegId": 452777,
+    "RegionId": 3011,
+    "RegionName": "Tromsø",
+    "RegionTypeId": 10,
+    "RegionTypeName": "A",
+    "DangerLevel": "2",
+    "ValidFrom": "2026-03-03T00:00:00",
+    "ValidTo": "2026-03-03T23:59:59",
+    "NextWarningTime": "2026-03-04T16:00:00",
+    "PublishTime": "2026-03-02T15:32:59.793",
+    "DangerIncreaseTime": null,
+    "DangerDecreaseTime": null,
+    "MainText": "Våte skred kan løsne naturlig under mildværsgrensen. Vær varsom i områder med fersk fokksnø og pågående snøfokk. Det finnes også vedvarende svake lag lenger ned i snødekket som kan føre til store skred.",
+    "LangKey": 1
+  }
+]

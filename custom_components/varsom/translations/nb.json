@@ -1,0 +1,87 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Velg sted",
+        "description": "Velg stedet du vil ha flom-, jordskred- og snøskredvarsler for. Stedet må ligge i Norge.",
+        "data": {
+          "location": "Sted"
+        }
+      },
+      "warning_types": {
+        "title": "Varseltyper",
+        "description": "Kommune: {municipality}\nSnøskredregion: {avalanche_region}\n\nSnøskredvarsler publiseres bare for fjellregioner i sesongen.",
+        "data": {
+          "warning_types": "Varseltyper"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Fikk ikke kontakt med Varsom (NVE) eller Kartverket. Prøv igjen senere.",
+      "outside_norway": "Stedet ligger ikke i en norsk kommune.",
+      "no_warning_types": "Velg minst én varseltype.",
+      "unknown": "Uventet feil."
+    },
+    "abort": {
+      "already_configured": "Dette stedet er allerede satt opp."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Varseltyper",
+        "data": {
+          "warning_types": "Varseltyper"
+        }
+      }
+    },
+    "error": {
+      "no_warning_types": "Velg minst én varseltype."
+    }
+  },
+  "selector": {
+    "warning_types": {
+      "options": {
+        "flood": "Flom",
+        "landslide": "Jordskred",
+        "avalanche": "Snøskred"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "any_warning": {
+        "name": "Farevarsel"
+      },
+      "flood_warning": {
+        "name": "Flomvarsel"
+      },
+      "landslide_warning": {
+        "name": "Jordskredvarsel"
+      },
+      "avalanche_warning": {
+        "name": "Snøskredvarsel"
+      }
+    },
+    "sensor": {
+      "flood_today": {
+        "name": "Flomfare i dag"
+      },
+      "flood_tomorrow": {
+        "name": "Flomfare i morgen"
+      },
+      "landslide_today": {
+        "name": "Jordskredfare i dag"
+      },
+      "landslide_tomorrow": {
+        "name": "Jordskredfare i morgen"
+      },
+      "avalanche_today": {
+        "name": "Snøskredfare i dag"
+      },
+      "avalanche_tomorrow": {
+        "name": "Snøskredfare i morgen"
+      }
+    }
+  }
+}

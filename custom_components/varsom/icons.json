@@ -1,0 +1,18 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "any_warning": { "default": "mdi:alert-outline", "state": { "on": "mdi:alert" } },
+      "flood_warning": { "default": "mdi:home-flood" },
+      "landslide_warning": { "default": "mdi:landslide" },
+      "avalanche_warning": { "default": "mdi:snowflake-alert" }
+    },
+    "sensor": {
+      "flood_today": { "default": "mdi:home-flood" },
+      "flood_tomorrow": { "default": "mdi:home-flood" },
+      "landslide_today": { "default": "mdi:landslide" },
+      "landslide_tomorrow": { "default": "mdi:landslide" },
+      "avalanche_today": { "default": "mdi:snowflake-alert" },
+      "avalanche_tomorrow": { "default": "mdi:snowflake-alert" }
+    }
+  }
+}

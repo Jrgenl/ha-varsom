@@ -1,0 +1,164 @@
+[
+  {
+    "LandSlideTypeList": [],
+    "EventId": "148513",
+    "Id": "584879",
+    "MasterId": "584873",
+    "Version": 2,
+    "LangKey": 1,
+    "CapStatus": "actual",
+    "MetId": null,
+    "MetName": null,
+    "MunicipalityList": [
+      {
+        "Id": "4601",
+        "Name": "Bergen",
+        "WarningList": []
+      }
+    ],
+    "MunicipalityCsvString": "4601;4650;4645;4602;4638;4617;4624;4644;1135;4647;4611;4620;4637;4640;4646;4634;4628;4623;4631;4641;4621;1134;4629;4639;4635;4630;4619;4649;4642;4622;4618;4648;4643;4651;",
+    "MunicipalityCsvStringBefore2024": null,
+    "MunicipalityCsvStringBefore2020": null,
+    "ActivityLevel": "3",
+    "ActivityLevelName": null,
+    "DangerType": "5",
+    "DangerTypeName": "Jord- og flomskredfare",
+    "ValidFrom": "2026-09-19T07:00:00",
+    "ValidTo": "2026-09-20T06:59:00",
+    "NextWarningTime": "2026-09-19T15:30:00",
+    "PublishTime": "2026-09-19T10:56:01.229425",
+    "FirstPublishTime": "2026-09-18T10:57:41.9630651",
+    "CreatedTime": "2026-09-18T11:32:17.9479583",
+    "DangerIncreaseDateTime": "2026-09-19T10:00:00",
+    "DangerDecreaseDateTime": "2026-09-20T07:00:00",
+    "MainText": "Varsel om jord- og flomskredfare, oransje nivå for Vestland og deler av Rogaland",
+    "WarningText": "Det ventes regn og stedvis kraftige regnbyger opp mot 60-80 mm i døgnet over store deler av Vestlandet, lokalt 80-100 mm/24t. \n\nMest nedbør er ventet i mitre deler av varslingsområdet.\n\n",
+    "AdviceText": "Hold deg unna bratte skråninger, samt bekker og elveløp med stor vannføring. Hold stikkrenner, kummer og andre vannveier fri for grus, søppel, kvist og løv. Tette vannveier med oppdemmet vann kan forårsake skred. \n\nHold deg oppdatert om utviklingen av været, skred- og flomsituasjonen, og følg med på værradaren. \n\nBeredskapsmyndigheter skal vurdere fortløpende behov for beredskap og forebyggende tiltak.",
+    "ConsequenceText": "Flere skredhendelser ventes. Noen kan få store konsekvenser. Utsatt bebyggelse kan bli berørt. Framkommelighet på veg eller jernbane kan bli redusert.",
+    "LevelMeaningText": null,
+    "CauseText": null,
+    "Area": null,
+    "ExposedHeightType": 0,
+    "ExposedHeightValue": -1,
+    "ExposedHeightValue2": -1,
+    "ExposedClimateType": 0,
+    "CauseList": [
+      {
+        "Id": 1,
+        "Name": "Regn"
+      },
+      {
+        "Id": 2,
+        "Name": "Intens regn (bygenedbør)"
+      }
+    ],
+    "MicroBlogPostList": [],
+    "StationList": [],
+    "ImageUrlList": []
+  },
+  {
+    "LandSlideTypeList": [],
+    "EventId": "148513",
+    "Id": "584886",
+    "MasterId": "584874",
+    "Version": 2,
+    "LangKey": 1,
+    "CapStatus": "actual",
+    "MetId": null,
+    "MetName": null,
+    "MunicipalityList": [
+      {
+        "Id": "4601",
+        "Name": "Bergen",
+        "WarningList": []
+      }
+    ],
+    "MunicipalityCsvString": "4601;4650;4645;4602;4638;4617;4624;4644;1135;4647;4611;4620;4637;4640;4646;4634;4628;4623;4631;4641;4621;1134;4629;4639;4635;4630;4619;4649;4642;4622;4618;4648;4643;4651;",
+    "MunicipalityCsvStringBefore2024": null,
+    "MunicipalityCsvStringBefore2020": null,
+    "ActivityLevel": "2",
+    "ActivityLevelName": null,
+    "DangerType": "5",
+    "DangerTypeName": "Jord- og flomskredfare",
+    "ValidFrom": "2026-09-20T07:00:00",
+    "ValidTo": "2026-09-21T06:59:00",
+    "NextWarningTime": "2026-09-20T15:30:00",
+    "PublishTime": "2026-09-20T10:15:29.719676",
+    "FirstPublishTime": "2026-09-18T15:02:11.189496",
+    "CreatedTime": "2026-09-19T10:37:01.0706456",
+    "DangerIncreaseDateTime": "2026-09-19T10:00:00",
+    "DangerDecreaseDateTime": "2026-09-21T06:00:00",
+    "MainText": "Varsel om jord- og flomskredfare, gult nivå for Vestland og deler av Rogaland",
+    "WarningText": "Pågående nedbør gir fare for jord- og flomskred.\n\n",
+    "AdviceText": "Hold deg unna bratte skråninger, samt bekker og elveløp med stor vannføring. Hold stikkrenner, kummer og andre vannveier fri for grus, søppel, kvist og løv. Tette vannveier med oppdemmet vann kan forårsake skred. Hold deg oppdatert om utviklingen av været, skred- og flomsituasjonen, og følg med på værradaren. Beredskapsmyndigheter skal vurdere fortløpende behov for beredskap og forebyggende tiltak.",
+    "ConsequenceText": "Skredhendelser kan forekomme. Utsatte bane- og vegstrekninger kan bli stengt.",
+    "LevelMeaningText": null,
+    "CauseText": null,
+    "Area": null,
+    "ExposedHeightType": 0,
+    "ExposedHeightValue": -1,
+    "ExposedHeightValue2": -1,
+    "ExposedClimateType": 0,
+    "CauseList": [
+      {
+        "Id": 1,
+        "Name": "Regn"
+      },
+      {
+        "Id": 2,
+        "Name": "Intens regn (bygenedbør)"
+      }
+    ],
+    "MicroBlogPostList": [],
+    "StationList": [],
+    "ImageUrlList": []
+  },
+  {
+    "LandSlideTypeList": [],
+    "EventId": "xxx",
+    "Id": "xxx",
+    "MasterId": "xxx",
+    "Version": 1,
+    "LangKey": 1,
+    "CapStatus": "actual",
+    "MetId": null,
+    "MetName": null,
+    "MunicipalityList": [
+      {
+        "Id": "4601",
+        "Name": "Bergen",
+        "WarningList": null
+      }
+    ],
+    "MunicipalityCsvString": "4601",
+    "MunicipalityCsvStringBefore2024": null,
+    "MunicipalityCsvStringBefore2020": null,
+    "ActivityLevel": "1",
+    "ActivityLevelName": null,
+    "DangerType": null,
+    "DangerTypeName": null,
+    "ValidFrom": "2026-09-21T07:00:00",
+    "ValidTo": "2026-09-22T06:59:59",
+    "NextWarningTime": "2026-09-21T15:30:00",
+    "PublishTime": "2026-09-21T14:45:54.4824255",
+    "FirstPublishTime": "2026-09-21T14:45:54.4824255",
+    "CreatedTime": "2026-09-29T09:57:16.4721694+02:00",
+    "DangerIncreaseDateTime": null,
+    "DangerDecreaseDateTime": null,
+    "MainText": "Grønt nivå",
+    "WarningText": null,
+    "AdviceText": null,
+    "ConsequenceText": null,
+    "LevelMeaningText": null,
+    "CauseText": null,
+    "Area": null,
+    "ExposedHeightType": 0,
+    "ExposedHeightValue": -1,
+    "ExposedHeightValue2": -1,
+    "ExposedClimateType": 0,
+    "CauseList": [],
+    "MicroBlogPostList": [],
+    "StationList": [],
+    "ImageUrlList": []
+  }
+]
