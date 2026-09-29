@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB020"/>
+      <stop offset="1" stop-color="#F06A00"/>
+    </linearGradient>
+    <clipPath id="inner">
+      <path d="M256 92 L436 404 H76 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Warning triangle with rounded corners -->
+  <path d="M256 36 C272 36 284 44 292 58 L500 418 C516 446 496 478 464 478 H48 C16 478 -4 446 12 418 L220 58 C228 44 240 36 256 36 Z"
+        fill="url(#bg)"/>
+  <g clip-path="url(#inner)">
+    <path d="M256 92 L436 404 H76 Z" fill="#FFF7E6"/>
+    <!-- Mountains -->
+    <path d="M60 404 L200 196 L262 286 L318 222 L452 404 Z" fill="#3B4A5A"/>
+    <!-- Snow caps -->
+    <path d="M200 196 L234 246 L218 238 L204 256 L188 236 L170 240 Z" fill="#FFFFFF"/>
+    <path d="M318 222 L344 258 L330 252 L318 266 L306 252 L292 256 Z" fill="#FFFFFF"/>
+    <!-- Water -->
+    <path d="M60 350 C100 330 130 330 168 350 C206 370 236 370 274 350 C312 330 342 330 380 350 C418 370 440 366 460 356 L460 420 L60 420 Z"
+          fill="#1C7ED6"/>
+    <path d="M60 380 C100 362 130 362 168 380 C206 398 236 398 274 380 C312 362 342 362 380 380 C418 398 440 394 460 386 L460 420 L60 420 Z"
+          fill="#1864AB"/>
+  </g>
+</svg>

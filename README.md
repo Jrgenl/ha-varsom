@@ -1,3 +1,5 @@
+<img src="brand/icon.png" alt="Varsom-ikon" width="128" align="right">
+
 # Varsom for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)
@@ -77,6 +79,10 @@ Entitets-ID-ene avhenger av språket og kommunenavnet. Finn dem under enheten *V
 - [Kartverket kommuneinfo](https://api.kartverket.no/kommuneinfo/v1/), som brukes til å finne kommunen ut fra koordinatene.
 
 Integrasjonen er ikke laget av eller tilknyttet NVE. Ved fare skal du alltid følge rådene på varsom.no og fra lokale myndigheter.
+
+## Ikon
+
+Ikonet ligger i [`brand/`](brand/): `icon.png` (256×256), `icon@2x.png` (512×512) og kildefilen `icon.svg`. Det er laget for dette prosjektet og er ikke NVE eller Varsom sin logo.
 
 ## Utvikling
 
